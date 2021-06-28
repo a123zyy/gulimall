@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.zyy.gulimall.produt.dao" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/gulimall-product/src/main/java/" />
+        <option name="javaModelPackage" value="com.zyy.gulimall.produt.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/gulimall-product/src/main/java/" />
+        <option name="lastDatabaseCrudChooseModuleName" value="gulimall-order" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="gulimall-order">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.zyy.gulimall.produt.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/gulimall-product/src/main/java/" />
+                  <option name="javaModelPacakge" value="com.zyy.gulimall.produt.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/gulimall-product/src/main/java/" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/gulimall-product/src/main/java/" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="gulimall-pms:pms_sku_info">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="sku_id" />
+                  <option name="javaModelName" value="PmsSkuInfo" />
+                  <option name="moduleName" value="gulimall-order" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="gulimall-pms:pms_spu_info">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="PmsSpuInfo" />
+                  <option name="moduleName" value="gulimall-order" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/gulimall-product/src/main/java/" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
