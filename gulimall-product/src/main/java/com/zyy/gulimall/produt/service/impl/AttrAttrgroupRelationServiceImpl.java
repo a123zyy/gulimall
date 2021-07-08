@@ -2,8 +2,16 @@ package com.zyy.gulimall.produt.service.impl;
 
 import com.zyy.gulimall.common.utils.PageUtils;
 import com.zyy.gulimall.common.utils.Query;
+import com.zyy.gulimall.produt.vo.AttrGroupVO;
+import org.hibernate.validator.constraints.EAN;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -24,6 +32,30 @@ public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupR
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public void batchDelete(List<AttrGroupVO> groupVOS) {
+        List<AttrAttrgroupRelationEntity> collect = groupVOS.stream().map(item -> {
+            AttrAttrgroupRelationEntity relationEntity = new AttrAttrgroupRelationEntity();
+            BeanUtils.copyProperties(item, relationEntity);
+            return relationEntity;
+        }).collect(Collectors.toList());
+
+        this.baseMapper.deleteBatchAttrIdsAndAttrGroupIds(collect);
+    }
+
+    @Override
+    public void saveBatch(List<AttrGroupVO> attrGroupVOList) {
+        if (attrGroupVOList.size() == 0){
+            return;
+        }
+        List<AttrAttrgroupRelationEntity> collect = attrGroupVOList.stream().map(item -> {
+            AttrAttrgroupRelationEntity relationEntity = new AttrAttrgroupRelationEntity();
+            BeanUtils.copyProperties(item, relationEntity);
+            return relationEntity;
+        }).collect(Collectors.toList());
+        this.saveBatch(collect);
     }
 
 }

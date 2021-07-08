@@ -3,13 +3,11 @@ package com.zyy.gulimall.produt.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-////import org.apache.shiro.authz.annotation.RequiresPermissions;
 import com.zyy.gulimall.common.utils.PageUtils;
 import com.zyy.gulimall.common.utils.R;
 import com.zyy.gulimall.common.valid.AddGroup;
 import com.zyy.gulimall.common.valid.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.properties.bind.BindResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -64,10 +62,9 @@ public class BrandController {
      */
     @RequestMapping("/save")
     ////@RequiresPermissions("produt:brand:save")
-    public R save(@RequestBody @Validated(value = {AddGroup.class}) BrandEntity brand, BindResult bindResult){
-		brandService.save(brand);
-
-        return R.ok();
+    public R save(@RequestBody @Validated(value = {AddGroup.class}) BrandEntity brand){
+		brandService.saveBrand(brand);
+		return R.ok();
     }
 
     /**
@@ -76,7 +73,7 @@ public class BrandController {
     @RequestMapping("/update")
    // //@RequiresPermissions("produt:brand:update")
     public R update(@RequestBody @Validated(value = {UpdateGroup.class}) BrandEntity brand){
-		brandService.updateById(brand);
+		brandService.updateBrandById(brand);
 
         return R.ok();
     }

@@ -24,8 +24,11 @@ public class GuliMallControllerAdvice {
         bindResult.getFieldErrors().forEach((filedError)->{
             errorMap.put(filedError.getField(),filedError.getDefaultMessage());
         });
+
         return R.error(400,"数据校验出现问题").put("data",errorMap);
     }
+
+
 
 //    @ExceptionHandler(value = Exception.class)
 //    public R handleExpection(Exception e){
