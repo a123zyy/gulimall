@@ -19,6 +19,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zyy.gulimall.produt.dao.AttrAttrgroupRelationDao;
 import com.zyy.gulimall.produt.entity.AttrAttrgroupRelationEntity;
 import com.zyy.gulimall.produt.service.AttrAttrgroupRelationService;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service("attrAttrgroupRelationService")
@@ -35,6 +36,7 @@ public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupR
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void batchDelete(List<AttrGroupVO> groupVOS) {
         List<AttrAttrgroupRelationEntity> collect = groupVOS.stream().map(item -> {
             AttrAttrgroupRelationEntity relationEntity = new AttrAttrgroupRelationEntity();
@@ -46,6 +48,7 @@ public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupR
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void saveBatch(List<AttrGroupVO> attrGroupVOList) {
         if (attrGroupVOList.size() == 0){
             return;

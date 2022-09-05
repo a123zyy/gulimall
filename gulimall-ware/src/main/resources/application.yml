@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/gulimall-wms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
-    password: yy123456
+    password: 123456
   # 环境 dev|test|prod
 #  profiles:
 #    active: dev
@@ -27,6 +27,12 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
       enabled: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-ware
 #  redis:
 #    open: false  # 是否开启redis缓存  true开启   false关闭
 #    database: 0

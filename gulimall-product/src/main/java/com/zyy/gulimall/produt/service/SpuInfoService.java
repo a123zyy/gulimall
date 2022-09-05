@@ -3,6 +3,7 @@ package com.zyy.gulimall.produt.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zyy.gulimall.common.utils.PageUtils;
 import com.zyy.gulimall.produt.entity.SpuInfoEntity;
+import com.zyy.gulimall.produt.vo.SpuSaveVO;
 
 import java.util.Map;
 
@@ -16,5 +17,9 @@ import java.util.Map;
 public interface SpuInfoService extends IService<SpuInfoEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveSpuInfo(SpuSaveVO spuInfo);
+
+    PageUtils querySpuInfoPage(Map<String, Object> params);
 }
 

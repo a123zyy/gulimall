@@ -1,9 +1,12 @@
 package com.zyy.gulimall.ware.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.zyy.gulimall.ware.vo.MergeVo;
+import com.zyy.gulimall.ware.vo.PurchaseDoneVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -40,6 +43,48 @@ public class PurchaseController {
         PageUtils page = purchaseService.queryPage(params);
 
         return R.ok().put("page", page);
+    }
+
+    /**
+     * 未采购的列表
+     */
+    @RequestMapping("/unreceive/list")
+    ////@RequiresPermissions("ware:waresku:list")
+    public R unreceiveList(@RequestParam Map<String, Object> params){
+        PageUtils page = purchaseService.queryPageUnreceivePurchase(params);
+        return R.ok().put("page", page);
+    }
+
+
+    /**
+     * 合并订单
+     */
+    @RequestMapping("/merge")
+    ////@RequiresPermissions("ware:waresku:list")
+    public void merge(@RequestBody MergeVo mergeVo){
+      purchaseService.purchaseMerge(mergeVo);
+    }
+
+    /**
+     * 员工系统->员工领取采购单
+     * TODO 未测试
+     */
+    @RequestMapping("/received")
+    ////@RequiresPermissions("ware:waresku:list")
+    public R received(@RequestBody List<Long> ids){
+       purchaseService.received(ids);
+       return R.ok();
+    }
+
+    /**
+     * 员工系统->员工完成采购单
+     * TODO 未测试
+     */
+    @RequestMapping("/done")
+    ////@RequiresPermissions("ware:waresku:list")
+    public R done(@RequestBody PurchaseDoneVo purchaseDoneVo){
+        purchaseService.done(purchaseDoneVo);
+        return R.ok();
     }
 
 

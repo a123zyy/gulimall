@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
-@RestControllerAdvice(basePackages = "com.zyy.gulimall.produt.controller")
+//@RestControllerAdvice(basePackages = "com.zyy.gulimall.produt.controller")
 public class GuliMallControllerAdvice {
 
 

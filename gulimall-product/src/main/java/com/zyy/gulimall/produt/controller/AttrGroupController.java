@@ -94,7 +94,9 @@ public class AttrGroupController {
 
 
     /**
-     * 列表
+     * 属性分为销售属性和规则属性
+     * 属性分组是指一个事物的特性 材质 直径 产地
+     * 删除属性分组同时删除关联关系
      */
     @PostMapping("/attr/relation/delete")
     ////@RequiresPermissions("produt:attrgroup:list")
@@ -157,14 +159,12 @@ public class AttrGroupController {
     }
 
     /**
-     * 删除
+     * 删除属性分组
      */
     @RequestMapping("/delete")
     ////@RequiresPermissions("produt:attrgroup:delete")
     public R delete(@RequestBody Long[] attrGroupIds){
-		attrGroupService.removeByIds(Arrays.asList(attrGroupIds));
-
-        return R.ok();
+       return attrGroupService.deleteAttrGroupID(Arrays.asList(attrGroupIds)) ? R.ok():R.error("部分已关联数据,未删除");
     }
 
 }

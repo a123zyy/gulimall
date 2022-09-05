@@ -37,7 +37,7 @@ public class SkuInfoController {
     @RequestMapping("/list")
     ////@RequiresPermissions("produt:skuinfo:list")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = skuInfoService.queryPage(params);
+        PageUtils page = skuInfoService.querySkuInfoPage(params);
 
         return R.ok().put("page", page);
     }

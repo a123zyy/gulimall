@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.zyy.gulimall.common.to.SpuBoundTo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -38,7 +40,6 @@ public class SpuBoundsController {
     ////@RequiresPermissions("coupon:spubounds:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = spuBoundsService.queryPage(params);
-
         return R.ok().put("page", page);
     }
 
@@ -49,20 +50,28 @@ public class SpuBoundsController {
     @RequestMapping("/info/{id}")
     ////@RequiresPermissions("coupon:spubounds:info")
     public R info(@PathVariable("id") Long id){
-		SpuBoundsEntity spuBounds = spuBoundsService.getById(id);
+        try {
+            SpuBoundsEntity spuBounds = spuBoundsService.getById(id);
+            return R.ok().put("spuBounds", spuBounds);
+        } catch (Exception e){
+            return R.error();
+        }
 
-        return R.ok().put("spuBounds", spuBounds);
     }
 
+
     /**
-     * 保存
+     * 成长积分 购物积分保存 远程保存
      */
     @RequestMapping("/save")
     ////@RequiresPermissions("coupon:spubounds:save")
     public R save(@RequestBody SpuBoundsEntity spuBounds){
-		spuBoundsService.save(spuBounds);
-
-        return R.ok();
+        try {
+            spuBoundsService.save(spuBounds);
+            return R.ok();
+        } catch (Exception e){
+        throw new RuntimeException("积分保存失败!"+e.getMessage());
+        }
     }
 
     /**

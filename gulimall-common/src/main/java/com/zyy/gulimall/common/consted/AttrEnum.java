@@ -2,7 +2,8 @@ package com.zyy.gulimall.common.consted;
 
 public enum  AttrEnum {
 
-    BASE_TYPE("", 1), SALE_TYPE("",0);
+    //base 基本属性 sale 销售属性
+    BASE_TYPE("base", 1), SALE_TYPE("sale",0);
 
     private String msg;
 
@@ -29,6 +30,17 @@ public enum  AttrEnum {
     public void setMsg(String msg) {
         this.msg = msg;
     }
+
+    public static String getCodeByKey(String key){
+        for (AttrEnum attrEnum:values()){
+            if (attrEnum.msg.equals(key)){
+                return String.valueOf(attrEnum.getCode());
+            }
+        }
+        return null;
+    }
+
+
 
 
 }

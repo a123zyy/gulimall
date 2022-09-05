@@ -18,10 +18,24 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>/?.*),/$\{segment}
 
+        - id: coupon_route
+          uri: lb://gulimall-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*),/$\{segment}
+
         - id: product_route
           uri: lb://gulimall-product
           predicates:
             - Path=/api/product/**
+          filters:
+            - RewritePath=/api(?<segment>/?.*),/$\{segment}
+
+        - id: ware_route
+          uri: lb://gulimall-ware
+          predicates:
+            - Path=/api/ware/**
           filters:
             - RewritePath=/api(?<segment>/?.*),/$\{segment}
 
@@ -44,6 +58,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/gulimall-sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
-    password: yy123456
+    password: 123456
 server:
   port: 8087

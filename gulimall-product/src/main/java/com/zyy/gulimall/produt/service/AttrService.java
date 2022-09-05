@@ -28,5 +28,9 @@ public interface AttrService extends IService<AttrEntity> {
     void updateAttrEntityById(AttrVO attr);
 
     PageUtils queryByParamer(Map<String, Object> params, List<Long> ids);
+
+    Boolean deleteAttrIds(List<Long> ids);
+
+
 }
 

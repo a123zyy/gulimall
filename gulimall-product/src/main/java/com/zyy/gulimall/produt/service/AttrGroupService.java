@@ -30,5 +30,7 @@ public interface AttrGroupService extends IService<AttrGroupEntity> {
     void saveAttrGroup(AttrGroupEntity attrGroup);
 
     List<AttrGroupRespVO> selectByCatelogId(Long catelogId);
+
+    Boolean deleteAttrGroupID(List<Long> ids);
 }
 

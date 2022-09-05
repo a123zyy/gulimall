@@ -1,5 +1,6 @@
 package com.zyy.gulimall.produt.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zyy.gulimall.common.utils.PageUtils;
 import com.zyy.gulimall.produt.entity.AttrAttrgroupRelationEntity;

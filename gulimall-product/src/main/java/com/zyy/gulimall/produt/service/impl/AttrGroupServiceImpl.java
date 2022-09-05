@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -27,6 +28,7 @@ import com.zyy.gulimall.common.utils.PageUtils;
 import com.zyy.gulimall.produt.dao.AttrGroupDao;
 import com.zyy.gulimall.produt.entity.AttrGroupEntity;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.CollectionUtils;
 
 
 @Service("attrGroupService")
@@ -53,26 +55,19 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
         //模糊查询
         String key = (String) params.get("key");
         QueryWrapper<AttrGroupEntity> wrapper = new QueryWrapper<AttrGroupEntity>();
-        if (!StringUtils.isEmpty(key)){
+        if (cateLogId != 0){
+            wrapper.eq("catelog_id",cateLogId);
+        }
+        //select * from xxx where (field2= ? or field3= ?)
+        if (StringUtils.isNotBlank(key)){
             wrapper.and((obj)->{
                 obj.eq("attr_group_id",key).or().like("attr_group_name",key);
             });
         }
-        if (cateLogId == 0){
-            IPage<AttrGroupEntity> page = this.page(
-                    new Query<AttrGroupEntity>().getPage(params),
-                    wrapper
-            );
-            return new PageUtils(page);
-        } else {
-            wrapper.eq("catelog_id",cateLogId);
-            //select * from attr_group where catelog_id and (id =key or name like %属性%)
-            IPage<AttrGroupEntity> page = this.page(
-                    new Query<AttrGroupEntity>().getPage(params),
-                    wrapper);
-            return new PageUtils(page);
-        }
-
+        IPage<AttrGroupEntity> page = this.page(
+                new Query<AttrGroupEntity>().getPage(params),
+                wrapper);
+        return new PageUtils(page);
     }
 
     /**
@@ -138,8 +133,23 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
                 attrGroupRespVO.setAttrs(collect);
             }
             return attrGroupRespVO;
-        }).collect(Collectors.toList());
+        }).filter(item->item.getAttrs()!=null).collect(Collectors.toList());
         return catelog_id;
+    }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public Boolean deleteAttrGroupID(List<Long> ids) {
+        //查看关联关系
+       List<AttrAttrgroupRelationEntity> relationEntityList = attrAttrgroupRelationService.list(new QueryWrapper<AttrAttrgroupRelationEntity>().in("attr_group_id",ids));
+       if (CollectionUtils.isEmpty(relationEntityList)){
+           this.removeByIds(ids);
+           return true;
+       }
+       List<Long> longList = relationEntityList.stream().map(AttrAttrgroupRelationEntity::getAttrGroupId).collect(Collectors.toList());
+       ids.removeAll(longList);
+       this.removeByIds(ids);
+       return false;
     }
 
 

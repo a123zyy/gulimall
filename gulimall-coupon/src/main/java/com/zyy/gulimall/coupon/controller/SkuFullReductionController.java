@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.zyy.gulimall.common.to.SkuReductionTo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -38,7 +40,6 @@ public class SkuFullReductionController {
     ////@RequiresPermissions("coupon:skufullreduction:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = skuFullReductionService.queryPage(params);
-
         return R.ok().put("page", page);
     }
 
@@ -63,6 +64,20 @@ public class SkuFullReductionController {
 		skuFullReductionService.save(skuFullReduction);
 
         return R.ok();
+    }
+
+    /**
+     * 保存 同步调用 头异步调用 一错都错
+     */
+    @RequestMapping("/saveInfo")
+    ////@RequiresPermissions("coupon:skufullreduction:save")
+    public R save(@RequestBody SkuReductionTo skuReductionTo){
+        try {
+            skuFullReductionService.saveSkuReductionTo(skuReductionTo);
+            return R.ok();
+        } catch (Exception e){
+            throw new RuntimeException("保存失败");
+        }
     }
 
     /**
