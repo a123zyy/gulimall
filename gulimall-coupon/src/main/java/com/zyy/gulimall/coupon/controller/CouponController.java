@@ -49,7 +49,7 @@ public class CouponController {
     @GetMapping("/getCoupon")
     public R getCoupon(){
        CouponEntity couponEntity =  new CouponEntity();
-       couponEntity.setCouponName("小龙虾有优惠啦~");
+//       couponEntity.setCouponName("小龙虾有优惠啦~");
        return R.ok().put("coupon",Arrays.asList(couponEntity));
     }
 

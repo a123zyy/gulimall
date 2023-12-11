@@ -29,4 +29,27 @@ public class SpuInfoDescEntity implements Serializable {
 	 */
 	private String decript;
 
+	public SpuInfoDescEntity() {
+	}
+
+	public SpuInfoDescEntity(Long spuId, String decript) {
+		this.spuId = spuId;
+		this.decript = decript;
+	}
+
+	public Long getSpuId() {
+		return spuId;
+	}
+
+	public void setSpuId(Long spuId) {
+		this.spuId = spuId;
+	}
+
+	public String getDecript() {
+		return decript;
+	}
+
+	public void setDecript(String decript) {
+		this.decript = decript;
+	}
 }

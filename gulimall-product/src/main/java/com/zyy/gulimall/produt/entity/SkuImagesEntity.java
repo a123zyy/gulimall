@@ -41,4 +41,54 @@ public class SkuImagesEntity implements Serializable {
 	 */
 	private Integer defaultImg;
 
+	public SkuImagesEntity() {
+	}
+
+	public SkuImagesEntity(Long id, Long skuId, String imgUrl, Integer imgSort, Integer defaultImg) {
+		this.id = id;
+		this.skuId = skuId;
+		this.imgUrl = imgUrl;
+		this.imgSort = imgSort;
+		this.defaultImg = defaultImg;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Long getSkuId() {
+		return skuId;
+	}
+
+	public void setSkuId(Long skuId) {
+		this.skuId = skuId;
+	}
+
+	public String getImgUrl() {
+		return imgUrl;
+	}
+
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
+	}
+
+	public Integer getImgSort() {
+		return imgSort;
+	}
+
+	public void setImgSort(Integer imgSort) {
+		this.imgSort = imgSort;
+	}
+
+	public Integer getDefaultImg() {
+		return defaultImg;
+	}
+
+	public void setDefaultImg(Integer defaultImg) {
+		this.defaultImg = defaultImg;
+	}
 }

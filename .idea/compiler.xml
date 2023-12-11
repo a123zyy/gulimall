@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,9 +11,9 @@
         <module name="gulimall-common" />
         <module name="renren-fast" />
         <module name="gulimall-order" />
-        <module name="gulimall-ware" />
-        <module name="gulimall-gateway" />
         <module name="gulimall-member" />
+        <module name="gulimall-gateway" />
+        <module name="gulimall-ware" />
         <module name="gulimall-product" />
       </profile>
       <profile name="Annotation profile for gulimall" enabled="true">

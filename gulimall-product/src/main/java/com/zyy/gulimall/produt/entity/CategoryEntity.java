@@ -71,5 +71,115 @@ public class CategoryEntity implements Serializable {
     @JsonInclude(JsonInclude.Include.NON_EMPTY)
     List<CategoryEntity> children;
 
+	public List<CategoryEntity> getChildren() {
+		return children;
+	}
 
+	public void setChildren(List<CategoryEntity> children) {
+		this.children = children;
+	}
+
+	public CategoryEntity(Long catId, String name, Long parentCid, Integer catLevel, Integer showStatus, Integer sort, String icon, String productUnit, Integer productCount, List<CategoryEntity> children) {
+		this.catId = catId;
+		this.name = name;
+		this.parentCid = parentCid;
+		this.catLevel = catLevel;
+		this.showStatus = showStatus;
+		this.sort = sort;
+		this.icon = icon;
+		this.productUnit = productUnit;
+		this.productCount = productCount;
+		this.children = children;
+	}
+
+	public CategoryEntity() {
+	}
+
+	@Override
+	public String toString() {
+		return "CategoryEntity{" +
+				"catId=" + catId +
+				", name='" + name + '\'' +
+				", parentCid=" + parentCid +
+				", catLevel=" + catLevel +
+				", showStatus=" + showStatus +
+				", sort=" + sort +
+				", icon='" + icon + '\'' +
+				", productUnit='" + productUnit + '\'' +
+				", productCount=" + productCount +
+				", children=" + children +
+				'}';
+	}
+
+	public Long getCatId() {
+		return catId;
+	}
+
+	public void setCatId(Long catId) {
+		this.catId = catId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Long getParentCid() {
+		return parentCid;
+	}
+
+	public void setParentCid(Long parentCid) {
+		this.parentCid = parentCid;
+	}
+
+	public Integer getCatLevel() {
+		return catLevel;
+	}
+
+	public void setCatLevel(Integer catLevel) {
+		this.catLevel = catLevel;
+	}
+
+	public Integer getShowStatus() {
+		return showStatus;
+	}
+
+	public void setShowStatus(Integer showStatus) {
+		this.showStatus = showStatus;
+	}
+
+	public Integer getSort() {
+		return sort;
+	}
+
+	public void setSort(Integer sort) {
+		this.sort = sort;
+	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+
+	public String getProductUnit() {
+		return productUnit;
+	}
+
+	public void setProductUnit(String productUnit) {
+		this.productUnit = productUnit;
+	}
+
+	public Integer getProductCount() {
+		return productCount;
+	}
+
+	public void setProductCount(Integer productCount) {
+		this.productCount = productCount;
+	}
 }

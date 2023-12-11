@@ -18,7 +18,7 @@ public class GuliMallControllerAdvice {
 
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
     public R handleVaildExpection(MethodArgumentNotValidException e){
-        log.error("数据出现异常{},异常类型:{}",e.getMessage(),e.getClass());
+//        log.error("数据出现异常{},异常类型:{}",e.getMessage(),e.getClass());
         BindingResult bindResult = e.getBindingResult();
         Map<String,String> errorMap =   new HashMap<>();
         bindResult.getFieldErrors().forEach((filedError)->{

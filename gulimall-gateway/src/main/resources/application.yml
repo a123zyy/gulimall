@@ -50,14 +50,14 @@ spring:
 
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: localhost:8848
   application:
     name: gulimall-gateway
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/gulimall-sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/gulimall_sms?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
     username: root
-    password: 123456
+    password: yy123456
 server:
   port: 8087
