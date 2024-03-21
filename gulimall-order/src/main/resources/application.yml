@@ -5,8 +5,8 @@ server:
     max-threads: 1000
     min-spare-threads: 30
   port: 8085
-  servlet:
-    context-path: /renren-fast
+#  servlet:
+#    context-path: /renren-fast
 
 spring:
   datasource:

@@ -5,12 +5,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
+import org.springframework.web.reactive.config.CorsRegistry;
 
 /**
  * @author zyy
  */
 @Configuration
 public class GulimallCorsConfigurtion {
+
     @Bean
     public CorsWebFilter corsWebFilter(){
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
@@ -23,4 +25,5 @@ public class GulimallCorsConfigurtion {
         source.registerCorsConfiguration("/**",corsConfiguration);
         return new CorsWebFilter(source);
     }
+
 }
