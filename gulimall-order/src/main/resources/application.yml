@@ -9,6 +9,11 @@ server:
 #    context-path: /renren-fast
 
 spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: 1231eb07-5745-491a-aa24-946b092d683f
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver

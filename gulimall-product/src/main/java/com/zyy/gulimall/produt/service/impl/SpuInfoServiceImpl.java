@@ -7,7 +7,7 @@ import com.zyy.gulimall.produt.entity.*;
 import com.zyy.gulimall.produt.feign.CouponFeignService;
 import com.zyy.gulimall.produt.service.*;
 import com.zyy.gulimall.produt.vo.*;
-import io.seata.spring.annotation.GlobalTransactional;
+//import io.seata.spring.annotation.GlobalTransactional;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpStatus;
 import org.springframework.beans.BeanUtils;
@@ -52,7 +52,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
     @Autowired
     SkuSaleAttrValueService skuSaleAttrValueService;
 
-    @Autowired
+//    @Autowired
     CouponFeignService couponFeignService;
 
 
@@ -97,7 +97,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
     @Async
     @Override
     @Transactional(rollbackFor = Exception.class)
-    @GlobalTransactional(rollbackFor = Exception.class)
+//    @GlobalTransactional(rollbackFor = Exception.class)
     //待校验 -如果其中一个保存方法失败且都加了注解的情况下,抛出异常 那么所有的方法都会回滚吗
     public void saveSpuInfo(SpuSaveVO spuSaveVO) {
            //1保存基本的spu信息 pms_spu_info spuInfo

@@ -2,15 +2,15 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: query_route
-          uri: https://www.baidu.com
-          predicates: #断言
-            - Query=url,baidu #如果前端的请求中带有baidu,那么就会跳转百度
-        - id: spring_route
-          uri: https://docs.spring.io/
-          predicates:
-            - Query=url,spring
-
+#        - id: query_route
+#          uri: https://www.baidu.com
+#          predicates: #断言
+#            - Query=url,baidu #如果前端的请求中带有baidu,那么就会跳转百度
+#        - id: spring_route
+#          uri: https://docs.spring.io/
+#          predicates:
+#            - Query=url,spring
+#
         - id: qq_route
           uri: https://im.qq.com/index/
           predicates:
@@ -53,9 +53,15 @@ spring:
 
 
 
+    ribbon:
+     nacos:
+      enabled: false
     nacos:
       discovery:
-        server-addr: localhost:8848
+        locator:
+          enabled: true# 开启以应用名代理服务,即通过应用名称访问接口
+        server-addr: 127.0.0.1:8848
+        namespace: 1231eb07-5745-491a-aa24-946b092d683f
   application:
     name: gulimall-gateway
   datasource:

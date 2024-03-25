@@ -5,8 +5,12 @@ server:
     max-threads: 1000
     min-spare-threads: 30
   port: 8082
-
 spring:
+  cloud:
+    nacos:
+      discovery:
+        namespace: 1231eb07-5745-491a-aa24-946b092d683f
+        server-addr: 127.0.0.1:8848
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -25,10 +29,6 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
       enabled: true
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
   application:
     name: gulimall-member
 #  redis:
