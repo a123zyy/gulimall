@@ -5,976 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19565c26-bd49-42f6-83cd-5c6e8d0d51f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/ProuctApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/WebRequest/CategoryRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/config/MybatisPlusConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/AttrAttrgroupRelationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/AttrController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/AttrGroupController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/BrandController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/CategoryBrandRelationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/CommentReplayController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/ProductAttrValueController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SkuImagesController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SkuInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SkuSaleAttrValueController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SpuCommentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SpuImagesController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SpuInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/controller/SpuInfoDescController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/AttrAttrgroupRelationDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/AttrDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/AttrGroupDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/BrandDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/CategoryBrandRelationDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/CategoryDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/CommentReplayDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/ProductAttrValueDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SkuImagesDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SkuInfoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SkuSaleAttrValueDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SpuCommentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SpuImagesDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SpuInfoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/dao/SpuInfoDescDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/AttrAttrgroupRelationEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/AttrEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/AttrGroupEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/BrandEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/CategoryBrandRelationEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/CategoryEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/CommentReplayEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/ProductAttrValueEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SkuImagesEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SkuInfoEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SkuSaleAttrValueEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SpuCommentEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SpuImagesEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SpuInfoDescEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/entity/SpuInfoEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/exception/GuliMallControllerAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/feign/CouponFeignService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/AttrAttrgroupRelationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/AttrGroupService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/AttrService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/BrandService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/CategoryBrandRelationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/CommentReplayService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/ProductAttrValueService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SkuImagesService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SkuInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SkuSaleAttrValueService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SpuCommentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SpuImagesService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SpuInfoDescService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/SpuInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/AttrAttrgroupRelationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/AttrGroupServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/AttrServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/CategoryBrandRelationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/CommentReplayServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/ProductAttrValueServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SkuImagesServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SkuInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SkuSaleAttrValueServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SpuCommentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SpuImagesServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SpuInfoDescServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/Attr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/AttrGroupRespVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/AttrGroupVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/AttrRespVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/AttrVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/BaseAttrs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/Bounds.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/CategoryBrandVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/Images.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/ProductAttrValueVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/Skus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/zyy/gulimall/produt/vo/SpuSaveVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/AttrAttrgroupRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/AttrDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/AttrGroupDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/BrandDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/CategoryBrandRelationDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/CategoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/CommentReplayDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/ProductAttrValueDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SkuImagesDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SkuInfoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SkuSaleAttrValueDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SpuCommentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SpuImagesDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SpuInfoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/target/classes/mapper/produt/SpuInfoDescDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/build/webpack.test.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/config/test.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/demo-screenshot/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/demo-screenshot/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/npm-shrinkwrap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/assets/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/assets/img/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/assets/scss/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/assets/scss/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/assets/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/assets/scss/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/components/icon-svg/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/components/table-tree-column/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/components/upload/multiUpload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/components/upload/policy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/components/upload/singleUpload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#0BB2D4/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#0BB2D4/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#0BB2D4/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#11C26D/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#11C26D/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#11C26D/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#17B3A3/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#17B3A3/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#17B3A3/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#3E8EF7/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#3E8EF7/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#3E8EF7/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#667AFA/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#667AFA/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#667AFA/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#757575/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#757575/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#757575/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#9463F7/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#9463F7/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#9463F7/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#997B71/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#997B71/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#997B71/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#EB6709/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#EB6709/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#EB6709/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#F74584/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#F74584/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#F74584/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#FCB900/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#FCB900/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#FCB900/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#FF4C52/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#FF4C52/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/element-#FF4C52/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui-theme/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/element-ui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-admin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-bianji.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-config.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-dangdifill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-daohang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-duanxin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-editor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-geren.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-jiesuo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-job.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-log.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-mudedi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-oss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-pinglun.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-role.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-shanchu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-shezhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-shoucang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-shoucangfill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-shouye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-sousuo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-sql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-suoding.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-system.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-tixing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-tubiao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-xiangqu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-xiangqufill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-zhedie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/icons/svg/icon-zonghe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/job-schedule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/oss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/sys-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/sys-log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/sys-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/sys-role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/mock/modules/sys-user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/router/import-development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/router/import-production.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/store/modules/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/utils/httpRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/common/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/common/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/common/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/common/theme.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/demo/echarts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/demo/ueditor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/main-content.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/main-navbar-update-password.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/main-navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/main-sidebar-sub-menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/main-sidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/common/brand-select.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/common/category-cascader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/common/category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/bounds.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/coupon-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/coupon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/couponspucategoryrelation-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/couponspucategoryrelation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/couponspurelation-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/couponspurelation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/full.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/history.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/homeadv-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/homeadv.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/homesubject-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/homesubjectspu-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/homesubjectspu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/memberprice-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/memberprice.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckill.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillpromotion-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillsession-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillsession.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillskunotice-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillskunotice.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillskurelation-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/seckillskurelation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/skufullreduction-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/skuladder-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/skuladder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/spubounds-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/coupon/subject.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/job/schedule-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/job/schedule-log.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/job/schedule.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/member/level.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/member/member-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/member/member.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/member/memberlevel-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/order-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/order.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderitem-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderitem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderoperatehistory-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderoperatehistory.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderreturnapply-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderreturnreason-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/orderreturnreason.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/ordersetting-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/payment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/paymentinfo-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/refund.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/refundinfo-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/return.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/order/settings.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/oss/oss-config.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/oss/oss-upload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/oss/oss.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/attr-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/attr-group-relation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/attrgroup-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/attrgroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/attrupdate.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/baseattr.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/brand-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/brand.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/manager.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/saleattr.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/spu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/spuadd.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/product/spuinfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/config-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/config.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/log.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/menu-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/role-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/role.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/user-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/sys/user.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/purchase-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/purchase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/purchasedetail-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/purchaseitem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/sku.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/task.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/wareinfo-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/wareinfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/wareordertask-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/wareordertaskdetail-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/wareordertaskdetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/src/views/modules/ware/waresku-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/config/index-prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/config/index-qa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/config/index-uat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/config/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/echarts-3.8.5/echarts.common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/mock-1.0.0-beta3/mock-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/xss.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/static/plugins/ueditor-1.4.3.3/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/e2e/runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/e2e/specs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/unit/jest.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/unit/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renren-vue/renren-fast-vue/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_config_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_seata_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_seata_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_seata_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_61_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_pool_0_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_seata_seata_all_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_seata_seata_spring_boot_starter_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_6_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/GulimallCorsConfigurtion.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/GulimallCorsConfigurtion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/controller/AttrGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/controller/AttrGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/SkuImagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/SkuImagesService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -997,6 +33,12 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "a123zyy"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -1005,6 +47,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b56b88d3-d33e-4c5f-a507-7367753c8b59" />
+        <option name="url" value="https://github.com/a123zyy/gulimall.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/GulimallCorsConfigurtion.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -1012,6 +62,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="C:\java\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
@@ -1027,29 +83,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GulimallCouponApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GulimallGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GulimallMemberApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GulimallOrderApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GulimallWareApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProuctApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RenrenApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RenrenGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gulimall [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.renren-fast [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/45125/IdeaProjects/gulimall&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GulimallCouponApplication.executor": "Run",
+    "Application.GulimallGatewayApplication.executor": "Run",
+    "Application.GulimallMemberApplication.executor": "Run",
+    "Application.GulimallOrderApplication.executor": "Run",
+    "Application.GulimallWareApplication.executor": "Run",
+    "Application.ProuctApplication.executor": "Debug",
+    "Application.RenrenApplication.executor": "Debug",
+    "Application.RenrenGenerator.executor": "Run",
+    "Maven.gulimall [clean].executor": "Run",
+    "Maven.gulimall [install].executor": "Run",
+    "Maven.gulimall-product [clean].executor": "Run",
+    "Maven.gulimall-product [install].executor": "Run",
+    "Maven.gulimall-product [validate].executor": "Run",
+    "Maven.renren-fast [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/45125/IdeaProjects/gulimall",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -1076,7 +136,7 @@
       <recent name="com.zyy.gulimall.common.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Compound.gulimall">
+  <component name="RunManager" selected="Application.GulimallGatewayApplication">
     <configuration name="GulimallCouponApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zyy.gulimall.GulimallCouponApplication" />
       <module name="gulimall-coupon" />
@@ -1459,26 +519,6 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SkuInfoServiceImpl.java</url>
           <line>48</line>
           <option name="timeStamp" value="72" />
@@ -1517,26 +557,6 @@
           <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SkuInfoServiceImpl.java</url>
           <line>40</line>
           <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/controller/SpuInfoController.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/zyy/gulimall/produt/service/impl/SpuInfoServiceImpl.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java</url>
@@ -1603,6 +623,112 @@
           <line>57</line>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsConfig.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsConfig.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsConfig.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsConfig.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsConfig.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsResponseHeaderFilter.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsResponseHeaderFilter.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsResponseHeaderFilter.java</url>
+          <line>31</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsFilterOOK.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsResponseHeaderFilter.java</url>
+          <line>30</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsResponseHeaderFilter.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/zyy/gulimall/gateway/config/CorsResponseHeaderFilter.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/gulimall-coupon/src/main/java/com/zyy/gulimall/coupon/service/MemberPriceService.java</url>
           <line>17</line>
@@ -1617,6 +743,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain" memberName="index" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -12,8 +12,6 @@ import org.springframework.web.server.WebFilter;
 import org.springframework.web.server.WebFilterChain;
 import reactor.core.publisher.Mono;
 
-import javax.servlet.http.HttpServletRequest;
-
 /**
  * @author zyy
 // */
@@ -30,28 +28,17 @@ public class CorsFilter implements WebFilter {
         if (!CorsUtils.isCorsRequest(request)) {
             return  chain.filter(exchange);
         }
-
         // 设置跨域响应头
         ServerHttpResponse response = exchange.getResponse();
-
-
         HttpHeaders headers = response.getHeaders();
-
         if (request.getHeaders().getOrigin() == null) {
             headers.add("Access-Control-Allow-Origin", "*");
         } else {
             headers.add("Access-Control-Allow-Origin", request.getHeaders().getOrigin());
         }
-//        if(request.getHeader("Origin") == null){
-//            response.setHeader("Access-Control-Allow-Origin", "*");
-//        }else{
-//            response.setHeader("Access-Control-Allow-Origin", request.getHeader("Origin"));
-//        }
-//        headers.add("Access-Control-Allow-Origin", "*");
         headers.add("Access-Control-Allow-Methods", "*");
-        headers.add("Access-Control-Allow-Headers", "*");
+        headers.add("Access-Control-Allow-Headers", "Origin,Content-Type,Accept,token,X-Requested-With");
         headers.add("Access-Control-Allow-Credentials","true");
-
         headers.add("Access-Control-Max-Age", MAX_AGE);
         if (HttpMethod.OPTIONS.equals(request.getMethod())) {
             response.setStatusCode(HttpStatus.OK);
